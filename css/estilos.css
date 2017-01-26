@@ -1,0 +1,22 @@
+li{
+	color: #2781a5;
+	opacity:0;
+	left:100%;
+	position:relative;
+}
+.input-field label {
+ 	color: #64B5F6;
+}
+.input-field input[type=text]{
+	color: #2781a5;
+}
+.input-field input[type=text]:focus + label {
+ 	color: #64B5F6;
+}
+.input-field input[type=text]:focus {
+ 	border-bottom: 1px solid #64B5F6;
+	box-shadow: 0 1px 0 0 #64B5F6;
+}
+.input-field .prefix.active {
+	color: #64B5F6;
+}
